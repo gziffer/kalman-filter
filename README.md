@@ -8,12 +8,12 @@ library
     - ECDD
     - RDDM
     - STEPD
-- *dataset* : it contains the datasets used in the experimental evaluation 
-    - elist
+- *dataset* : it contains the datasets used in the experimental evaluation
     - spam
     - usent
     - usenet1
     - usenet2
+    - elist (not included) available [here](http://mlkd.csd.auth.gr/concept_drift.html)
 - *evaluation* : it contains the code of the k-fold distributed cross validation with the prequential evaluation mode
 - *models* : it contains the models developed and used in the experimental evaluation
     - DriftDetectionMethodClassifier
